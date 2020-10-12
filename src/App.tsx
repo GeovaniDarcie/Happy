@@ -2,11 +2,11 @@ import React from 'react';
 
 import './styles/global.css';
 
+import Routes from './routes'
+
 function App(){
     return(
-       <div className="App"> 
-         <h1>Eae pessoal!</h1>
-       </div>
+       <Routes />      
     )
 }
 
